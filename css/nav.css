@@ -1,0 +1,58 @@
+.nav-bar {
+    background-color: var(--dark0) !important;
+    max-height: 63px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo-image {
+    margin-top: 4px;
+    min-width: 58px;
+    flex-basis:100%;
+    max-height: 58px;
+    max-width: 58px;
+}
+
+.logo-text {
+    width: 50px;
+    height: 63px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0
+}
+
+.logo {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 40px
+}
+
+.nav-left:hover, .nav-right:hover {
+    background: var(--dark2);
+}
+
+.nav-left {
+    width: 80px;
+    height: 63px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 0
+}
+
+.nav-right {
+    width: 80px;
+    height: 63px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    flex-grow: 1;
+    flex-shrink: 0
+}

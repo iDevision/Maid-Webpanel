@@ -1,0 +1,30 @@
+body {
+    --dark0: #202225;
+    --dark1: #2a2c30;
+    --dark2: #2f3136;
+    --dark3: #36393f;
+    --red: #e7513b;
+    --light-blue: #7289da;
+
+    background-color: var(--dark3);
+}
+
+.sidebar {
+    width: 11.5%;
+    background-color: var(--dark2);
+    display: block;
+    min-height: 100vh;
+}
+
+.main-body {
+    display: flex;
+}
+
+.sidebar-ul {
+    list-style: none;
+}
+
+.sidebar-li:hover {
+    background-color: var(--dark1);
+    min-height: 30px;
+}
